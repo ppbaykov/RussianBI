@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RussianBI", "RussianBI\RussianBI.csproj", "{C6D727F2-AFAD-4987-9216-0F4CBD1C674B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RussianBI.Application", "RussianBI.Application\RussianBI.Application.csproj", "{C6D727F2-AFAD-4987-9216-0F4CBD1C674B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableModel", "TableModel\TableModel.csproj", "{F258CA25-BAA3-4FE1-9016-53C20AB1E484}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +14,9 @@ Global
 		{C6D727F2-AFAD-4987-9216-0F4CBD1C674B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6D727F2-AFAD-4987-9216-0F4CBD1C674B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6D727F2-AFAD-4987-9216-0F4CBD1C674B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F258CA25-BAA3-4FE1-9016-53C20AB1E484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F258CA25-BAA3-4FE1-9016-53C20AB1E484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F258CA25-BAA3-4FE1-9016-53C20AB1E484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F258CA25-BAA3-4FE1-9016-53C20AB1E484}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
