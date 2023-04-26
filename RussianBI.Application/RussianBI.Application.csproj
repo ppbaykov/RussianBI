@@ -9,4 +9,9 @@
         <RootNamespace>RussianBI</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\RussianBI.LexerParser\RussianBI.LexerParser.csproj" />
+      <ProjectReference Include="..\RussianBI.TableModel\RussianBI.TableModel.csproj" />
+    </ItemGroup>
+
 </Project>
