@@ -2,7 +2,7 @@
 
 public class Table
 {
-    public string Guid { get; set; }
-    public string Name { get; set; }
-    public List<Column> Columns { get; set; } 
+    public string Guid { get; set; } = default!;
+    public string Name { get; set; } = default!;
+    public List<Column> Columns { get; set; } = default!;
 }

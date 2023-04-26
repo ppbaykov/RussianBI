@@ -14,6 +14,7 @@ var parser = new ExpressionParser();
 // Дерево лексера, которое строится по результатам парсинга запроса
 var tree = parser.ParseQuery(inputString);
 
+// TODO Реализовать тело метода
 var resultSql = SqlBuilder.Build(tree, tableModel);
 
 Console.WriteLine(resultSql);

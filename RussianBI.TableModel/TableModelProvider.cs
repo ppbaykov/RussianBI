@@ -9,7 +9,7 @@ public class TableModelProvider
         _model.Add(new Table
         {
             Guid = "74D1548E-CDFE-4DF3-A18C-9F07C32C2164",
-            Name = "продукты",
+            Name = "dimproduct",
             Columns = new List<Column>
             {
                 new()
@@ -21,7 +21,7 @@ public class TableModelProvider
                 new()
                 {
                     Guid = "E3157227-4878-4F76-8896-B6F0714852A3",
-                    Name = "название",
+                    Name = "name",
                     DataType = ColumnDataType.String
                 }
             }
@@ -29,7 +29,7 @@ public class TableModelProvider
         _model.Add(new Table
         {
             Guid = "74D1548E-CDFE-4DF3-A18C-9F07C32C2164",
-            Name = "продажи",
+            Name = "sales",
             Columns = new List<Column>
             {
                 new()
@@ -41,7 +41,7 @@ public class TableModelProvider
                 new()
                 {
                     Guid = "F0D0F625-9578-48AE-B4A3-7F136BA8AF99",
-                    Name = "сумма",
+                    Name = "amount",
                     DataType = ColumnDataType.Number
                 }
             }

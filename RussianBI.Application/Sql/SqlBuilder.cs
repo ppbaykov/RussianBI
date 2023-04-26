@@ -6,7 +6,7 @@ public static class SqlBuilder
 {
     public static string Build(RussianBIGrammarParser.RootContext tree, List<Table> model)
     {
-        // TODO
+        // TODO Реализовать тело метода
         return string.Empty;
     }
 }

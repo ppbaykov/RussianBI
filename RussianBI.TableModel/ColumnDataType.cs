@@ -2,6 +2,6 @@ namespace TableModel;
 
 public enum ColumnDataType
 {
-    String = 0, 
+    String = 0,
     Number = 1
 }
