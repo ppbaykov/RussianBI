@@ -18,4 +18,5 @@ from sales fact
 left join 
 dimproduct dim
 on fact.productkey = dim.key
+group by dimproduct.name
 ```
